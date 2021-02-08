@@ -95,5 +95,4 @@ fi
 %attr(755,%{uid},%{gid}) %dir %{_sharedstatedir}/torrents
 
 %changelog
-* Update .spec 2020-8-14.
-* First build 2020-8-13.
+* Update .spec 2021-02-08.
