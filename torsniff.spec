@@ -37,6 +37,7 @@ Torsniff an opensource Bittorrent Spider written in GoLang.
 %setup -q -n %{name}-%{version}
 
 %build
+go get -d
 go build -o %{name} -ldflags "-s -w -X main.VERSION=%{version}"
 
 
