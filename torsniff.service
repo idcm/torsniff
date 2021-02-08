@@ -1,0 +1,15 @@
+[Unit]
+Description=Torsniff
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+WorkingDirectory=/usr/
+
+User=torsniff
+Group=torsniff
+EnvironmentFile=/etc/sysconfig/torsniff
+ExecStart=/usr/bin/torsniff  $TOR_OPTS
+
+[Install]
+WantedBy=multi-user.target
