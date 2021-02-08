@@ -95,4 +95,4 @@ fi
 %attr(755,%{uid},%{gid}) %dir %{_sharedstatedir}/torrents
 
 %changelog
-* Update .spec 2021-02-08.
+* Tue Jan 07 2020 IDCM <idcm@live.cn>
