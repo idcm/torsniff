@@ -8,7 +8,7 @@
 
 
 Name:     torsniff 
-Version:  0.1.1
+Version:  0.1.2
 Release:  4%{?dist}
 Summary:  Bittorrent Spider Written in GoLang
 Epoch:    1
